@@ -1,0 +1,43 @@
+{
+    "Types" : {
+        "Fire" : {
+            "pokemon" : [
+                {
+                    "name" : "Charizard",
+                    "stats": {
+                        "height": 5,
+                        "weight" :26,
+                        "abilities": [
+                            {
+                                "name": "Claw Strike",
+                                "hp": -15
+                            }
+                        ]
+                    }
+                }
+            ],
+            "avgHeught": 1,
+            "avgWeight": 3
+        },
+        "Water": {
+            "pokemon": [
+                {
+                    "name": "Squirtle",
+                    "stats": {
+                        "height": 5,
+                        "weight": 26,
+                        "abilities": [
+                            {
+                                "name": "Water Cannon",
+                                "hp": -55
+                            }
+                        ]
+                    }
+                }
+            ],
+            "avgHeught": 3,
+            "avgWeight": 3
+        }
+    }
+   
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "name" : "United States",
+        "attendees": [
+            {
+                "name": "Rebecca Stanford",
+                "availabilityDates": ["1", "2", "3"]
+            },
+            {
+                "name": "Courtney Chartreuse",
+                "availabilityDates": ["2", "6", "9"]
+            }
+        ]
+    },
+    {
+        "name": "Ukraine",
+        "attendees" :[
+            {
+
+            }
+        ]
+    }
+]
