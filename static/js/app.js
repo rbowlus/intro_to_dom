@@ -17,8 +17,9 @@ function changeActiveClass() {
     this.classList.toggle('active');
 }
 
-function greyItem() {
+function doneItem() {
     this.classList.add("text-white");
+    this.style.textDecoration = 'line-through'
     this.classList.add("bg-success");
 }
 
@@ -44,7 +45,7 @@ addBtn.addEventListener('click', (e) => {
     // OR ....
     // ul.innerHTML += `<li onmouseover="changeActiveClass(this)" onmouseleave="changeActiveClass(this)" class="list-group-item">${ todoItemField.value }</li>`;
     
-    li.addEventListener('click', greyItem);
+    li.addEventListener('click', doneItem);
 
     todoItemField.value = '';
     // console.log(todoItemField.value) 
@@ -52,6 +53,7 @@ addBtn.addEventListener('click', (e) => {
 })
 
 delBtn.addEventListener('click', (e) => {
-    $(ul).empty();
+    ul.innerHTML = '';
+    // $(ul).empty();
 })
 
